@@ -1,192 +1,260 @@
 <!DOCTYPE html>
 <html lang="id" class="scroll-smooth">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bento Kopi - Detail Tenant</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAMI YUMMY</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
 
     <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'festival-blue': '#0AB7F1',
-                        'festival-navy': '#091658',
-                        'festival-white': '#FFFFFF',
-                    },
-                    fontFamily: {
-                        'shoulders-bold': ['Big Shoulders Display', 'sans-serif'],
-                        'shoulders-black': ['Big Shoulders Display', 'sans-serif'],
-                    }
-                }
-            }
-        }
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "festival-blue": "#0AB7F1",
+              "festival-navy": "#091658",
+              "festival-white": "#FFFFFF",
+            },
+            fontFamily: {
+              "shoulders-bold": ["Big Shoulders Display", "sans-serif"],
+              "shoulders-black": ["Big Shoulders Display", "sans-serif"],
+            },
+          },
+        },
+      };
     </script>
     <style>
-        .font-shoulders-bold {
-            font-family: 'Big Shoulders Display', sans-serif;
-            font-weight: 700;
-        }
+      .font-shoulders-bold {
+        font-family: "Big Shoulders Display", sans-serif;
+        font-weight: 700;
+      }
 
-        .font-shoulders-black {
-            font-family: 'Big Shoulders Display', sans-serif;
-            font-weight: 900;
-        }
+      .font-shoulders-black {
+        font-family: "Big Shoulders Display", sans-serif;
+        font-weight: 900;
+      }
     </style>
-</head>
+  </head>
 
-<body class="font-shoulders-bold text-black bg-white min-h-screen">
+  <body class="font-shoulders-bold text-black bg-white min-h-screen">
     <nav class="bg-festival-blue py-3 px-4">
-    <div class="max-w-md mx-auto">
+      <div class="max-w-md mx-auto">
         <div class="flex items-center justify-between">
-            <!-- Logo di kiri -->
-            <div class="flex items-center">
-                <img src="../assets/VERTICAL WHITE.png" alt="MA FEST Logo" class="h-8 w-auto">
-            </div>
-            
-            <!-- Text di kanan -->
-            <div class="text-center">
-                <div class="text-white font-black text-base tracking-wider">
-                    MANAJEMEN FESTIVAL 2025
-                </div>
-            </div>
-        </div>
-    </div>
-</nav>
+          <div class="flex items-center">
+            <img
+              src="../assets/VERTICAL WHITE.png"
+              alt="MAFEST"
+              class="h-8 w-auto"
+            />
+          </div>
 
-    <!-- HEADER TENANT -->
-    <section>
-        <div class="max-w-4xl mx-auto">
-            <div>
-                <img src="../assets/header/header_9.jpg" alt="">
+          <div class="text-center">
+            <div class="text-white font-black text-base tracking-wider">
+              MANAJEMEN FESTIVAL 2025
             </div>
+          </div>
         </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="max-w-4xl mx-auto">
+        <div>
+          <img src="../assets/header/header_9.jpg" alt="" />
+        </div>
+      </div>
     </section>
 
-    <!-- NAMA TENANT -->
     <section>
-        <div class="max-w-4xl mx-auto">
-            <div class="bg-festival-navy shadow-2xl p-2">
-                <div class="flex items-center justify-center gap-6">
-                    <h2 class="font-shoulders-black text-4xl text-festival-white uppercase tracking-wider">MAMI YUMMY
-                    </h2>
-                </div>
-            </div>
+      <div class="max-w-4xl mx-auto">
+        <div class="bg-festival-navy shadow-2xl p-2">
+          <div class="flex items-center justify-center gap-6">
+            <h2
+              class="font-shoulders-black text-4xl text-festival-white uppercase tracking-wider"
+            >
+              MAMI YUMMY
+            </h2>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- INFORMASI, MAP DAN CONTACT TENANT -->
     <section class="py-4 md:py-6">
-        <div class="max-w-4xl mx-auto px-2 md:px-4">
-            <div class="grid grid-cols-3 gap-4 md:gap-4">
-                <!-- LOKASI TENANT -->
-                <div>
-                    <h3
-                        class="font-shoulders-black  text-[16px] md:text-xl text-festival-navy uppercase mb-1 md:mb-3 text-center">
-                        LOKASI</h3>
-                    <div class="bg-gray-200 flex items-center justify-center overflow-hidden w-35  h-35 md:w-64 md:h-64">
-                        <img src="../assets/map/mapt9.png" alt="Map" class="object-cover w-full h-full">
-                    </div>
-                </div
-
-                <!-- CONTACT TENANT -->
-                <div>
-                    <h3
-                        class="font-shoulders-black text-[16px] md:text-xl text-festival-navy uppercase mb-1 md:mb-3 text-center">
-                        CONTACT PERSON</h3>
-                    <div class="space-y-1 md:space-y-2">
-                        <a href="https://instagram.com/bentokopi"
-                            class="flex items-center gap-1 bg-festival-navy text-festival-white py-1 px-1 md:py-2 md:px-3 rounded md:rounded-2xl hover:bg-opacity-90 transition-all text-[10px] md:text-xs">
-                            <i class="fab fa-instagram text-[10px] md:text-base"></i>
-                            <span class="font-shoulders-bold truncate text-[10px]">Mami.yumy</span>
-                        </a>
-                        <a href="mailto:bentokopi@gmail.com"
-                            class="flex items-center gap-1 bg-festival-navy text-festival-white py-1 px-1 md:py-2 md:px-3 rounded md:rounded-2xl hover:bg-opacity-90 transition-all text-[10px] md:text-xs">
-                            <i class="fas fa-phone text-[10px] md:text-base"></i>
-                            <span class="font-shoulders-bold truncate text-[10px]">087865937575</span>
-                        </a>
-                    </div>
-                </div>
+      <div class="max-w-4xl mx-auto px-2 md:px-4">
+        <div class="grid grid-cols-3 gap-4 md:gap-4">
+          <div>
+            <h3
+              class="font-shoulders-black text-[16px] md:text-xl text-festival-navy uppercase mb-1 md:mb-3 text-center"
+            >
+              LOKASI
+            </h3>
+            <div
+              class="bg-gray-200 flex items-center justify-center overflow-hidden w-35 h-35 md:w-64 md:h-64"
+            >
+              <img
+                src="../assets/map/mapt9.png"
+                alt="Map"
+                class="object-cover w-full h-full"
+              />
             </div>
+          </div>
+
+          <div>
+            <h3
+              class="font-shoulders-black text-[16px] md:text-xl text-festival-navy uppercase mb-1 md:mb-3 text-center"
+            >
+              CONTACT PERSON
+            </h3>
+            <div class="space-y-1 md:space-y-2">
+              <a
+                href="#"
+                class="flex items-center gap-1 bg-festival-navy text-festival-white py-1 px-1 md:py-2 md:px-3 rounded md:rounded-2xl hover:bg-opacity-90 transition-all text-[10px] md:text-xs"
+              >
+                <i class="fab fa-instagram text-[10px] md:text-base"></i>
+                <span class="font-shoulders-bold truncate text-[10px]"
+                  >Mami.yumy</span
+                >
+              </a>
+              <a
+                href="#"
+                class="flex items-center gap-1 bg-festival-navy text-festival-white py-1 px-1 md:py-2 md:px-3 rounded md:rounded-2xl hover:bg-opacity-90 transition-all text-[10px] md:text-xs"
+              >
+                <i class="fas fa-phone text-[10px] md:text-base"></i>
+                <span class="font-shoulders-bold truncate text-[10px]"
+                  >087865937575</span
+                >
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-
-    <!-- MENU MAKANAN TENANT -->
     <section>
-        <div class="max-w-4xl mx-auto">
-            <div class="bg-festival-navy shadow-2xl p-2">
-                <div class="flex items-center justify-center gap-6">
-                    <h2 class="font-shoulders-black text-4xl text-festival-white uppercase tracking-wider">MENU</h2>
-                </div>
-            </div>
+      <div class="max-w-4xl mx-auto">
+        <div class="bg-festival-navy shadow-2xl p-2">
+          <div class="flex items-center justify-center gap-6">
+            <h2
+              class="font-shoulders-black text-4xl text-festival-white uppercase tracking-wider"
+            >
+              MENU
+            </h2>
+          </div>
         </div>
+      </div>
     </section>
     <section class="px-4 pt-4">
-        <div class="max-w-md mx-auto mb-4">
-            <!-- Menu Grid -->
-            <div class="grid grid-cols-2 gap-4">
-                            <!-- Menu Item 1 -->
-                <div
-                    class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col">
-                    <img src="../assets/menut9/menu1.jpg" alt="Coffee Gula Aren" class="w-full h-full object-cover rounded-2xl">
-                </div>
-                <!-- Menu Item 1 -->
-                <div
-                    class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col">
-                    <img src="../assets/menut9/menu2.jpg" alt="Coffee Gula Aren" class="w-full h-full object-cover rounded-2xl">
-                </div>
-                <!-- Menu Item 1 -->
-                <div
-                    class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col">
-                    <img src="../assets/menut9/menu3.jpg" alt="Coffee Gula Aren" class="w-full h-full object-cover rounded-2xl">
-                </div>
-                <!-- Menu Item 1 -->
-                <div
-                    class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col">
-                    <img src="../assets/menut9/menu4.jpg" alt="Coffee Gula Aren" class="w-full h-full object-cover rounded-2xl">
-                </div>
-                <!-- Menu Item 1 -->
-                <div
-                    class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col">
-                    <img src="../assets/menut9/menu5.jpg" alt="Coffee Gula Aren" class="w-full h-full object-cover rounded-2xl">
-                </div>
-                <!-- Menu Item 1 -->
-                <div
-                    class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col">
-                    <img src="../assets/menut9/menu6.jpg" alt="Coffee Gula Aren" class="w-full h-full object-cover rounded-2xl">
-                </div>
-                <!-- Menu Item 1 -->
-                <div
-                    class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col">
-                    <img src="../assets/menut9/menu7.jpg" alt="Coffee Gula Aren" class="w-full h-full object-cover rounded-2xl">
-                </div>
-                <!-- Menu Item 1 -->
-                <div
-                    class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col">
-                    <img src="../assets/menut9/menu8.jpg" alt="Coffee Gula Aren" class="w-full h-full object-cover rounded-2xl">
-                </div>
-                <div
-                    class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col">
-                    <img src="../assets/menut9/menu9.jpg" alt="Coffee Gula Aren" class="w-full h-full object-cover rounded-2xl">
-                </div>
-                <div
-                    class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col">
-                    <img src="../assets/menut9/menu10.jpg" alt="Coffee Gula Aren" class="w-full h-full object-cover rounded-2xl">
-                </div>
-                <div
-                    class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col">
-                    <img src="../assets/menut9/menu11.jpg" alt="Coffee Gula Aren" class="w-full h-full object-cover rounded-2xl">
-                </div>
-            </div>
+      <div class="max-w-md mx-auto mb-4">
+        <div class="grid grid-cols-2 gap-4">
+          <div
+            class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col"
+          >
+            <img
+              src="../assets/menut9/menu1.jpg"
+              alt="tenant9"
+              class="w-full h-full object-cover rounded-2xl"
+            />
+          </div>
+          <div
+            class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col"
+          >
+            <img
+              src="../assets/menut9/menu2.jpg"
+              alt="tenant9"
+              class="w-full h-full object-cover rounded-2xl"
+            />
+          </div>
+          <div
+            class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col"
+          >
+            <img
+              src="../assets/menut9/menu3.jpg"
+              alt="tenant9"
+              class="w-full h-full object-cover rounded-2xl"
+            />
+          </div>
+          <div
+            class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col"
+          >
+            <img
+              src="../assets/menut9/menu4.jpg"
+              alt="tenant9"
+              class="w-full h-full object-cover rounded-2xl"
+            />
+          </div>
+          <div
+            class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col"
+          >
+            <img
+              src="../assets/menut9/menu5.jpg"
+              alt="tenant9"
+              class="w-full h-full object-cover rounded-2xl"
+            />
+          </div>
+          <div
+            class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col"
+          >
+            <img
+              src="../assets/menut9/menu6.jpg"
+              alt="tenant9"
+              class="w-full h-full object-cover rounded-2xl"
+            />
+          </div>
+          <div
+            class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col"
+          >
+            <img
+              src="../assets/menut9/menu7.jpg"
+              alt="tenant9"
+              class="w-full h-full object-cover rounded-2xl"
+            />
+          </div>
+          <div
+            class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col"
+          >
+            <img
+              src="../assets/menut9/menu8.jpg"
+              alt="tenant9"
+              class="w-full h-full object-cover rounded-2xl"
+            />
+          </div>
+          <div
+            class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col"
+          >
+            <img
+              src="../assets/menut9/menu9.jpg"
+              alt="tenant9"
+              class="w-full h-full object-cover rounded-2xl"
+            />
+          </div>
+          <div
+            class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col"
+          >
+            <img
+              src="../assets/menut9/menu10.jpg"
+              alt="tenant9"
+              class="w-full h-full object-cover rounded-2xl"
+            />
+          </div>
+          <div
+            class="bg-festival-navy rounded-2xl md:rounded-2xl shadow overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border border-gray-200 aspect-square flex flex-col"
+          >
+            <img
+              src="../assets/menut9/menu11.jpg"
+              alt="tenant9"
+              class="w-full h-full object-cover rounded-2xl"
+            />
+          </div>
         </div>
+      </div>
     </section>
-
-</body>
-
+  </body>
 </html>
